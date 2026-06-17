@@ -1,8 +1,6 @@
-# 📈 StockVision
-
 <div align="center">
 
-# StockVision
+# 📈 StockVision
 
 ### Smart Money Trading Analyzer
 
@@ -10,27 +8,44 @@
 
 *Decode Institutional Moves. Trade Smarter.*
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
-![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib-orange)
-![yFinance](https://img.shields.io/badge/Data-Yahoo%20Finance-yellow)
-![SMC](https://img.shields.io/badge/Analysis-Smart%20Money%20Concepts-success)
+<br>
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
+![Yahoo Finance](https://img.shields.io/badge/Yahoo_Finance-Live_Data-yellow?style=for-the-badge)
+![SMC](https://img.shields.io/badge/SMC-Smart_Money_Concepts-success?style=for-the-badge)
+
+<br><br>
+
+<img src="Snapshots/working-demo.jpeg" width="1000">
+
+### 🚀 Real-Time Market Analysis • 🧠 Smart Money Concepts • 🎮 Trading Simulation
 
 </div>
 
 ---
 
-<p align="center">
-  <img src="Snapshots/working-demo.jpeg" width="1000">
-</p>
+# 📚 Table of Contents
 
-<div align="center">
-
-### Complete StockVision Workspace
-
-Real-Time Market Analysis • Smart Money Concepts • Trading Simulation
-
-</div>
+* [🚀 Overview](#-overview)
+* [🎯 Problem Statement](#-problem-statement)
+* [🏠 Home Screen](#-home-screen)
+* [✨ Key Features](#-key-features)
+* [📊 Market Analyzer Dashboard](#-market-analyzer-dashboard)
+* [📈 Smart Money Chart Visualization](#-smart-money-chart-visualization)
+* [🟢 Supply & Demand Zones + Fair Value Gaps](#-supply--demand-zones--fair-value-gaps)
+* [💧 Liquidity Analysis](#-liquidity-analysis)
+* [📋 SMC Trade Decision Engine](#-smc-trade-decision-engine)
+* [🎮 Paper Trading Simulator](#-paper-trading-simulator)
+* [🏗️ System Architecture](#️-system-architecture)
+* [🛠️ Technology Stack](#️-technology-stack)
+* [📂 Project Structure](#-project-structure)
+* [⚙️ Installation](#️-installation)
+* [🎓 Learning Outcomes](#-learning-outcomes)
+* [🔮 Future Scope](#-future-scope)
+* [👨‍💻 Team Pythoneers](#-team-pythoneers)
+* [📜 License](#-license)
 
 ---
 
@@ -83,6 +98,8 @@ The application begins with a clean and intuitive dashboard that provides access
 
 <p align="center">
   <img src="Snapshots/homepage.jpeg" width="850">
+  <br>
+  <em>StockVision Home Dashboard</em>
 </p>
 
 ---
@@ -103,7 +120,7 @@ Supported Markets:
 
 Examples:
 
-```text id="v0mk8d"
+```text
 AAPL
 TSLA
 BTC
@@ -177,6 +194,8 @@ The analyzer combines traditional market analytics with Smart Money Concepts.
 
 <p align="center">
   <img src="Snapshots/responsive-graph.jpeg" width="1000">
+  <br>
+  <em>Interactive Market Analyzer Dashboard</em>
 </p>
 
 ---
@@ -212,6 +231,8 @@ The system automatically detects potential institutional buying and selling zone
 
 <p align="center">
   <img src="Snapshots/analysis_bar_supply-demand-fvg.jpeg" width="450">
+  <br>
+  <em>Supply & Demand Zone Detection with Fair Value Gap Analysis</em>
 </p>
 
 ---
@@ -233,6 +254,8 @@ Helping traders identify where large market participants may be targeting liquid
 
 <p align="center">
   <img src="Snapshots/analysis_bar_liquidity.jpeg" width="450">
+  <br>
+  <em>Institutional Liquidity Analysis Engine</em>
 </p>
 
 ---
@@ -255,6 +278,8 @@ Based on the combined analysis, StockVision generates trade ideas or recommends 
 
 <p align="center">
   <img src="Snapshots/smc_trade_idea.jpeg" width="450">
+  <br>
+  <em>Smart Money Concepts Trade Decision Engine</em>
 </p>
 
 ---
@@ -271,7 +296,7 @@ StockVision includes a paper trading environment that allows traders to practice
 * Buy/Sell Simulation
 * Strategy Testing
 
-```text id="hh7v9y"
+```text
 [ INSERT TRADING SIMULATOR SCREENSHOT HERE ]
 ```
 
@@ -279,7 +304,7 @@ StockVision includes a paper trading environment that allows traders to practice
 
 # 🏗️ System Architecture
 
-```text id="n9v28u"
+```text
 Yahoo Finance API
         │
         ▼
@@ -318,11 +343,11 @@ Yahoo Finance API
 
 # 📂 Project Structure
 
-```text id="rhv3ll"
+```text
 StockVision/
 │
 ├── Code/
-│   └──stockvision.py
+│   └── stockvision.py
 │
 ├── Snapshots/
 │   ├── working-demo.jpeg
@@ -346,23 +371,12 @@ StockVision/
 
 # ⚙️ Installation
 
-Clone the repository:
-
-```bash id="clj6iq"
+```bash
 git clone https://github.com/IshaanGarud/StockVision.git
 
 cd StockVision
-```
-
-Install dependencies:
-
-```bash id="jopjcc"
 pip install yfinance pandas numpy matplotlib
-```
 
-Run the application:
-
-```bash id="6f2xj0"
 cd Code
 python stock_vision.py
 ```
@@ -385,49 +399,78 @@ This project demonstrates practical implementation of:
 
 # 🔮 Future Scope
 
-### 🤖 AI-Powered Trade Suggestions
-
-Machine learning-assisted trade setup recommendations.
-
-### ⏪ Backtesting Engine
-
-Historical strategy validation and performance analysis.
-
-### 🌐 Web Application
-
-Browser-based deployment.
-
-### 📱 Mobile Application
-
-Cross-platform trading companion.
-
-### ☁️ Cloud Synchronization
-
-Online watchlists and user profiles.
-
-### 📡 Real-Time Alerts
-
-Notifications for:
-
-* Liquidity Sweeps
-* Supply & Demand Retests
-* Fair Value Gap Formation
-* High Probability Trade Setups
+* 🤖 AI-Powered Trade Suggestions
+* ⏪ Backtesting Engine
+* 🌐 Web Application
+* 📱 Mobile Application
+* ☁️ Cloud Synchronization
+* 📡 Real-Time Alerts
 
 ---
 
 # 👨‍💻 Team Pythoneers
 
-### Don Bosco Institute of Technology, Mumbai
+<div align="center">
 
-| Name          | Role                                               |
-| ------------- | -------------------------------------------------- |
-| Mahie Jain    | Lead Developer, UI/UX Designer & Workflow Engineer |
-| Ishaan Garud  | Co-Developer & Core System Engineer                |
-| Rupsagar Kar  | Smart Money Concepts Analyst & System Designer     |
-| Stella Ghodke | Research & Documentation Specialist                |
+<table>
+<tr>
 
-### Project Guide
+<td align="center">
+<a href="https://github.com/MAHIE_GITHUB_USERNAME">
+<img src="https://github.com/MAHIE_GITHUB_USERNAME.png" width="120px;" alt="Mahie Jain"/>
+<br />
+<b>Mahie Jain</b>
+</a>
+<br />
+Lead Developer
+<br />
+UI/UX Designer
+<br />
+Workflow Engineer
+</td>
+
+<td align="center">
+<a href="https://github.com/IshaanGarud">
+<img src="https://github.com/IshaanGarud.png" width="120px;" alt="Ishaan Garud"/>
+<br />
+<b>Ishaan Garud</b>
+</a>
+<br />
+Co-Developer
+<br />
+Core System Engineer
+</td>
+
+<td align="center">
+<a href="https://github.com/RUPSAGAR_GITHUB_USERNAME">
+<img src="https://github.com/RUPSAGAR_GITHUB_USERNAME.png" width="120px;" alt="Rupsagar Kar"/>
+<br />
+<b>Rupsagar Kar</b>
+</a>
+<br />
+SMC Analyst
+<br />
+System Designer
+</td>
+
+<td align="center">
+<a href="https://github.com/STELLA_GITHUB_USERNAME">
+<img src="https://github.com/STELLA_GITHUB_USERNAME.png" width="120px;" alt="Stella Ghodke"/>
+<br />
+<b>Stella Ghodke</b>
+</a>
+<br />
+Research &
+<br />
+Documentation Specialist
+</td>
+
+</tr>
+</table>
+
+</div>
+
+### 🎓 Academic Guide
 
 **Prof. Imran Ali Mirza**
 
@@ -446,11 +489,13 @@ See the LICENSE file for details.
 
 <div align="center">
 
-## ⭐ If you found this project interesting, consider giving it a star!
+## ⭐ Star this repository if you found it useful!
 
-### StockVision
+### 📈 StockVision
 
 #### Smart Money Trading Analyzer
+
+🚀 Real-Time Analytics • 🧠 Smart Money Concepts • 🎮 Trading Simulation
 
 *"The future of trading is interpretation, not prediction."*
 
