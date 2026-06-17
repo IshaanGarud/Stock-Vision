@@ -13,75 +13,97 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
 ![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib-orange)
-![yFinance](https://img.shields.io/badge/Data-yFinance-yellow)
+![yFinance](https://img.shields.io/badge/Data-Yahoo%20Finance-yellow)
 ![SMC](https://img.shields.io/badge/Analysis-Smart%20Money%20Concepts-success)
 
 </div>
 
 ---
 
-## 🚀 Overview
+<p align="center">
+  <img src="screenshots/working-demo.jpeg" width="1000">
+</p>
 
-StockVision is a Python-based Smart Money Concepts (SMC) trading analysis platform designed to help traders understand institutional market behavior across multiple financial markets.
+<div align="center">
 
-Unlike traditional trading software that relies heavily on lagging indicators, StockVision focuses on interpreting market structure, liquidity movements, price imbalances, and institutional footprints in real time.
+### Complete StockVision Workspace
 
-The platform combines Smart Money Concepts, live market data, interactive visualizations, and a paper trading environment into a single beginner-friendly desktop application.
+Real-Time Market Analysis • Smart Money Concepts • Trading Simulation
 
-> **"We don't predict the market. We interpret what smart money is doing."**
+</div>
+
+---
+
+# 🚀 Overview
+
+StockVision is a Python-based Smart Money Concepts (SMC) trading analysis platform that helps traders understand institutional market behavior across Stocks, Forex, Cryptocurrencies, ETFs, and Global Indices.
+
+Unlike traditional trading tools that rely heavily on lagging indicators, StockVision focuses on interpreting market structure, liquidity movement, price imbalances, and institutional footprints in real time.
+
+The platform combines:
+
+* 📊 Live Market Analysis
+* 🧠 Smart Money Concepts Engine
+* 📈 Interactive Chart Visualization
+* 💧 Liquidity Analysis
+* 🎮 Paper Trading Simulation
+
+into a single desktop application.
+
+> **"We don't predict price. We interpret smart money."**
 
 ---
 
 # 🎯 Problem Statement
 
-Retail traders often struggle because they rely on lagging indicators that react after major price movements have already occurred.
+Retail traders frequently struggle because they depend on indicators that react after the move has already happened.
 
-Common challenges include:
+Common issues include:
 
 * Lack of institutional market understanding
-* Emotional decision making
-* Poor trade structure
-* Difficulty identifying liquidity zones
-* Inability to recognize smart money footprints
+* Emotional decision-making
+* Poor risk management
+* Inability to identify liquidity zones
+* Difficulty interpreting market structure
 
-StockVision was created to bridge the gap between institutional trading logic and retail trader accessibility.
+StockVision bridges the gap between institutional trading logic and retail trader accessibility by translating Smart Money Concepts into an intuitive software platform.
 
 ---
 
 # 🏠 Home Screen
 
-The application provides two major modules:
+The application begins with a clean and intuitive dashboard that provides access to both major modules.
 
-* 📊 Stock Analyzer
-* 🎮 Trading Simulator
+### Features
 
-A clean and intuitive dashboard allows users to quickly navigate between analysis and simulation workflows.
+* Stock Analyzer
+* Trading Simulator
+* Multi-Market Support
+* Smart Money Concepts Integration
 
-### 📷 Screenshot Placeholder
-
-```text id="0bdw0x"
-[
-```
+<p align="center">
+  <img src="Snapshots/homepage.jpeg" width="850">
+</p>
 
 ---
 
-# ✨ Core Features
+# ✨ Key Features
 
 ## 📊 Multi-Market Analysis
 
-Analyze multiple financial instruments from a single platform.
+Analyze a wide range of financial instruments from a single platform.
 
 Supported Markets:
 
 * Stocks
 * Forex
 * Cryptocurrencies
-* Global Indices
 * ETFs
+* Global Indices
 
 Examples:
 
-```text id="ul6kbb"
+```text id="v0mk8d"
 AAPL
 TSLA
 BTC
@@ -97,229 +119,167 @@ SENSEX
 
 ## 🧠 Smart Money Concepts Engine
 
-StockVision incorporates several institutional-grade Smart Money Concepts.
+StockVision incorporates institutional-grade Smart Money Concepts including:
 
 ### 🔥 Imbalance of Power (IOP)
 
-Analyzes candle anatomy to identify:
+Analyzes candle anatomy to determine:
 
-* Bullish dominance
-* Bearish dominance
-* Trend candles
-* Indecision candles
-* Hidden buying pressure
-* Hidden selling pressure
+* Bullish Power
+* Bearish Power
+* Trend Candles
+* Hidden Institutional Activity
+* Market Indecision
 
----
+### 🟢 Supply & Demand Zones
 
-### 🟢 Supply & Demand Detection
-
-Automatically identifies:
+Detects:
 
 * Rally Base Rally (RBR)
 * Drop Base Rally (DBR)
 * Rally Base Drop (RBD)
 * Drop Base Drop (DBD)
 
-Additional features:
-
-* Freshness Tracking
-* Zone Strength Evaluation
-* Retest Detection
-
----
-
-### 🟡 Fair Value Gap (FVG) & Breakaway Gap (BAG)
-
-Detects market inefficiencies such as:
-
-* Bullish FVGs
-* Bearish FVGs
-* Breakaway Gaps
-* Unfilled Price Imbalances
-
----
-
-### 💧 Liquidity Analysis
+### 🟡 Fair Value Gaps (FVG)
 
 Identifies:
 
+* Market Inefficiencies
+* Price Imbalances
+* Potential Price Magnets
+
+### 💧 Liquidity Analysis
+
+Detects:
+
 * Liquidity Sweeps
 * Stop Hunts
-* Equal Highs (EQH)
-* Equal Lows (EQL)
-* Buy-side Liquidity
-* Sell-side Liquidity
+* Equal Highs
+* Equal Lows
+* Institutional Traps
 
 ---
 
-# 📊 Analyzer Dashboard
+# 📊 Market Analyzer Dashboard
 
-The analyzer dashboard combines technical analysis with Smart Money Concepts.
+The analyzer combines traditional market analytics with Smart Money Concepts.
 
-Features include:
+### Dashboard Features
 
 * Live Market Data
-* Trend Analysis
-* Risk Assessment
-* RSI Analysis
-* Volatility Metrics
-* Volume Analysis
+* Candlestick Charts
 * SMA 20
 * SMA 50
+* Volume Analysis
+* RSI Analysis
+* Trend Detection
+* Risk Assessment
 
-### 📷 Screenshot Placeholder
-
-```text id="vx4pxu"
-[ INSERT ANALYZER DASHBOARD SCREENSHOT HERE ]
-```
+<p align="center">
+  <img src="Snapshots/responsive-graph.jpeg" width="1000">
+</p>
 
 ---
 
-# 📈 Smart Money Chart Overlays
+# 📈 Smart Money Chart Visualization
 
 Institutional footprints are visualized directly on the chart.
 
-Chart overlays include:
+Displayed overlays include:
 
 * Supply Zones
 * Demand Zones
 * Fair Value Gaps
-* Breakaway Gaps
 * Liquidity Levels
+* Equal Highs & Lows
 * Stop-Hunt Markers
 
-Helping traders understand where institutional activity may be occurring.
+The visualization layer allows traders to understand where significant institutional activity may be occurring.
 
-### 📷 Screenshot Placeholder
+---
 
-```text id="bwy5hc"
-[ INSERT CHART WITH SMC OVERLAYS SCREENSHOT HERE ]
-```
+# 🟢 Supply & Demand Zones + Fair Value Gaps
+
+The system automatically detects potential institutional buying and selling zones.
+
+### Zone Analysis Includes
+
+* Pattern Type Detection
+* Zone Freshness
+* Retest Validation
+* Strength Evaluation
+* Nearby Fair Value Gaps
+
+<p align="center">
+  <img src="Snapshots/analysis_bar_supply-demand-fvg.jpeg" width="450">
+</p>
 
 ---
 
 # 💧 Liquidity Analysis
 
-One of the platform's most powerful modules.
+One of the most powerful components of StockVision.
 
-The liquidity engine helps identify:
+The Liquidity Engine continuously scans for:
 
-* Stop Hunt Events
+* Stop Hunts
 * Liquidity Grabs
 * Liquidity Sweeps
-* Reversal Traps
-* Institutional Entry Zones
+* Equal Highs (EQH)
+* Equal Lows (EQL)
+* Potential Reversal Traps
 
-### 📷 Screenshot Placeholder
+Helping traders identify where large market participants may be targeting liquidity.
 
-```text id="0xuw9x"
-[ INSERT LIQUIDITY ANALYSIS SCREENSHOT HERE ]
-```
-
----
-
-# 🧠 Supply & Demand Detection
-
-The system automatically detects institutional supply and demand zones and evaluates their validity.
-
-Zone Information:
-
-* Pattern Type
-* Freshness
-* Retests
-* Strength
-* Proximity to Current Price
-
-### 📷 Screenshot Placeholder
-
-```text id="3zvr7z"
-[ INSERT SUPPLY & DEMAND ANALYSIS SCREENSHOT HERE ]
-```
+<p align="center">
+  <img src="Snapshots/analysis_bar_liquidity.jpeg" width="450">
+</p>
 
 ---
 
-# 📋 SMC Summary Engine
+# 📋 SMC Trade Decision Engine
 
-Multiple Smart Money signals are combined into a final market interpretation.
+Multiple Smart Money signals are combined into a final interpretation layer.
 
-Possible outputs:
+The engine evaluates:
 
-* 🟢 Bullish Bias
-* 🔴 Bearish Bias
-* 🟡 Mixed Signals
-* ⚪ Neutral Conditions
+* Imbalance of Power
+* Supply & Demand Zones
+* Fair Value Gaps
+* Liquidity Conditions
+* Market Structure
 
-This encourages structured decision-making rather than emotional trading.
+Based on the combined analysis, StockVision generates trade ideas or recommends waiting for higher probability setups.
 
-### 📷 Screenshot Placeholder
+> Sometimes the best trade is no trade.
 
-```text id="fkg99v"
-[ INSERT SMC SUMMARY SCREENSHOT HERE ]
-```
-
----
-
-# ⭐ Wishlist System
-
-Save frequently analyzed symbols for quick access.
-
-Features:
-
-* One-click Analysis
-* Persistent Storage
-* Watchlists
-* Multi-Asset Support
-
-### 📷 Screenshot Placeholder
-
-```text id="uocvrq"
-[ INSERT WISHLIST SYSTEM SCREENSHOT HERE ]
-```
+<p align="center">
+  <img src="Snapshots/smc_trade_idea.jpeg" width="450">
+</p>
 
 ---
 
-# 🎮 Trading Simulator
+# 🎮 Paper Trading Simulator
 
-Practice trading without risking real capital.
+StockVision includes a paper trading environment that allows traders to practice and validate strategies without risking real capital.
 
-Features:
+### Features
 
 * Virtual Balance
-* Buy & Sell Simulation
-* Profit/Loss Tracking
 * Position Management
-* Strategy Validation
+* Profit/Loss Tracking
+* Buy/Sell Simulation
+* Strategy Testing
 
-Ideal for:
-
-* Beginners learning market structure
-* Traders testing Smart Money strategies
-* Risk-free experimentation
-
-### 📷 Screenshot Placeholder
-
-```text id="9vhzsn"
+```text id="hh7v9y"
 [ INSERT TRADING SIMULATOR SCREENSHOT HERE ]
-```
-
----
-
-# 🖥️ Full Application Showcase
-
-A complete view of StockVision in action.
-
-### 📷 Screenshot Placeholder
-
-```text id="fr7crs"
-[ INSERT FULL APPLICATION SCREENSHOT HERE ]
 ```
 
 ---
 
 # 🏗️ System Architecture
 
-```text id="o9bb4h"
+```text id="n9v28u"
 Yahoo Finance API
         │
         ▼
@@ -328,12 +288,10 @@ Yahoo Finance API
         ▼
  Smart Money Engine
  ├─ Imbalance of Power
- ├─ Supply & Demand
- ├─ FVG / BAG Detection
- └─ Liquidity Analysis
-        │
-        ▼
- SMC Summary Engine
+ ├─ Supply & Demand Zones
+ ├─ Fair Value Gaps
+ ├─ Liquidity Analysis
+ └─ SMC Summary Engine
         │
         ▼
  Visualization Layer
@@ -360,17 +318,27 @@ Yahoo Finance API
 
 # 📂 Project Structure
 
-```text id="f0cngv"
+```text id="rhv3ll"
 StockVision/
 │
-├── stockvision.py
-├── screenshots/
+├── Code/
+│   └──stockvision.py
+│
+├── Snapshots/
+│   ├── working-demo.jpeg
+│   ├── homepage.jpeg
+│   ├── responsive-graph.jpeg
+│   ├── analysis_bar_1.jpeg
+│   ├── analysis_bar_supply-demand-fvg.jpeg
+│   └── smc_trade_idea.jpeg
+│
 ├── docs/
 │   ├── Poster.pdf
 │   ├── Presentation.pptx
 │   └── Report.pdf
 │
 ├── requirements.txt
+│
 └── README.md
 ```
 
@@ -380,22 +348,23 @@ StockVision/
 
 Clone the repository:
 
-```bash id="kh8vrn"
-git clone https://github.com/yourusername/StockVision.git
+```bash id="clj6iq"
+git clone https://github.com/IshaanGarud/StockVision.git
 
 cd StockVision
 ```
 
 Install dependencies:
 
-```bash id="rjlwm8"
+```bash id="jopjcc"
 pip install yfinance pandas numpy matplotlib
 ```
 
 Run the application:
 
-```bash id="8m17cf"
-python stockvision.py
+```bash id="6f2xj0"
+cd Code
+python stock_vision.py
 ```
 
 ---
@@ -404,13 +373,12 @@ python stockvision.py
 
 This project demonstrates practical implementation of:
 
-* Smart Money Concepts
-* Real-Time Market Analysis
-* Financial Data Processing
+* Smart Money Concepts (SMC)
+* Real-Time Financial Data Processing
 * Desktop Application Development
 * Data Visualization
-* Algorithmic Pattern Detection
-* Object-Oriented Design
+* Algorithmic Market Analysis
+* Object-Oriented Programming
 * Trading System Architecture
 
 ---
@@ -419,13 +387,13 @@ This project demonstrates practical implementation of:
 
 ### 🤖 AI-Powered Trade Suggestions
 
-Machine learning-based trade setup recommendations.
+Machine learning-assisted trade setup recommendations.
 
 ### ⏪ Backtesting Engine
 
-Validate Smart Money strategies using historical data.
+Historical strategy validation and performance analysis.
 
-### 🌐 Web Platform
+### 🌐 Web Application
 
 Browser-based deployment.
 
@@ -435,15 +403,15 @@ Cross-platform trading companion.
 
 ### ☁️ Cloud Synchronization
 
-Online watchlists and profile synchronization.
+Online watchlists and user profiles.
 
 ### 📡 Real-Time Alerts
 
 Notifications for:
 
 * Liquidity Sweeps
-* Fair Value Gaps
-* Supply/Demand Retests
+* Supply & Demand Retests
+* Fair Value Gap Formation
 * High Probability Trade Setups
 
 ---
@@ -456,7 +424,7 @@ Notifications for:
 | ------------- | -------------------------------------------------- |
 | Mahie Jain    | Lead Developer, UI/UX Designer & Workflow Engineer |
 | Ishaan Garud  | Co-Developer & Core System Engineer                |
-| Rupsagar Kar  | Smart Money Analyst & System Designer              |
+| Rupsagar Kar  | Smart Money Concepts Analyst & System Designer     |
 | Stella Ghodke | Research & Documentation Specialist                |
 
 ### Project Guide
@@ -470,15 +438,15 @@ Don Bosco Institute of Technology, Mumbai
 
 # 📜 License
 
-This project was developed for educational and research purposes.
+This project is licensed under the MIT License.
 
-Feel free to fork, learn, and build upon it.
+See the LICENSE file for details.
 
 ---
 
 <div align="center">
 
-## ⭐ If you found this project interesting, consider giving it a star ⭐
+## ⭐ If you found this project interesting, consider giving it a star!
 
 ### StockVision
 
