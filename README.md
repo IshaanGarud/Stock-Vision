@@ -21,7 +21,7 @@
 ---
 
 <p align="center">
-  <img src="screenshots/working-demo.jpeg" width="1000">
+  <img src="Snapshots/working-demo.jpeg" width="1000">
 </p>
 
 <div align="center">
